@@ -10,4 +10,7 @@
   (doseq [line (line-seq reader)]
     (println line)))
 
-(println "Done!")
+;; get current directory
+;; (println (System/getProperty "user.dir"))
+
+;; (println "Done!")
